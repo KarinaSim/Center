@@ -1,0 +1,59 @@
+{
+  "animals" : [
+    {
+    "type" : "cat",
+    "name" : "Vaska",
+    "cost" : 7981,
+    "character" : "angry",
+    "breed" : "Peterbald",
+    "degreeOfPollution" : 77
+    },
+    {
+    "type" : "wolf",
+    "name" : "Belka",
+    "cost" : 10536,
+    "character" : "serious",
+    "breed" : "Tundra",
+    "degreeOfPollution" : 10
+    },
+    {
+    "type" : "dog",
+    "name" : "Tom",
+    "cost" : 34647,
+    "character" : "kind",
+    "breed" : "Husky",
+    "degreeOfPollution" : 78
+    },
+    {
+    "type" : "wolf",
+    "name" : "Timka",
+    "cost" : 23411,
+    "character" : "angry",
+    "breed" : "Polar",
+    "degreeOfPollution" : 23
+    },
+    {
+    "type" : "wolf",
+    "name" : "Mashka",
+    "cost" : 10536,
+    "character" : "angry",
+    "breed" : "Tundra",
+    "degreeOfPollution" : 3
+    },
+    {
+    "type" : "wolf",
+    "name" : "Mashka",
+    "cost" : 34647,
+    "character" : "serious",
+    "breed" : "Steppe",
+    "degreeOfPollution" : 13
+    },
+    {
+    "type" : "cat",
+    "name" : "Vaska",
+    "cost" : 15298,
+    "character" : "cheerful",
+    "breed" : "Ragdoll",
+    "degreeOfPollution" : 48
+  } ]
+}
