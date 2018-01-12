@@ -2,9 +2,7 @@ package netcracker.project.petshop.other;
 
 import netcracker.project.petshop.service.DataStoringJob;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 
-@Component
 public class SavingFileThread implements Runnable {
     private static final String NAME = "SavingFileThread";
     private Thread thread;

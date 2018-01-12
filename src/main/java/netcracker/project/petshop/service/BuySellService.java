@@ -3,14 +3,13 @@ package netcracker.project.petshop.service;
 import netcracker.project.petshop.dao.DataOnSaleAndPurchase;
 import netcracker.project.petshop.dao.PetShopStorage;
 import netcracker.project.petshop.model.Animal;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
 public class BuySellService {
-    private static final Logger LOGGER = LogManager.getLogger(BuySellService.class);
+    private static final Logger LOGGER = Logger.getLogger(BuySellService.class);
     @Autowired
     private PetShopStorage storage;
     @Autowired
@@ -30,7 +29,7 @@ public class BuySellService {
     public void buy(Animal animal) {
         storage.getAnimals().add(animal);
         saleAndPurchase.getBoughtAnimals().add(animal);
-        //LOGGER.info("The " + animal.getClass().getSimpleName() + " is bought for " + animal.getCost() + "$");
+        LOGGER.info("The " + animal.getClass().getSimpleName() + " is bought for " + animal.getCost() + "$");
     }
 
     /**

@@ -2,8 +2,7 @@ package netcracker.project.petshop.service;
 
 import netcracker.project.petshop.dao.PetShopStorage;
 import netcracker.project.petshop.model.*;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import javax.xml.bind.JAXBContext;
@@ -14,7 +13,7 @@ import java.util.Random;
 
 @Service
 public class PetshopService {
-    private static final Logger LOGGER = LogManager.getLogger(PetShopStorage.class);
+    private static final Logger LOGGER = Logger.getLogger(PetShopStorage.class);
     @Autowired
     private PetShopStorage storage;
 

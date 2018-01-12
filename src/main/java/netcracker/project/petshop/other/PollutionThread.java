@@ -2,10 +2,8 @@ package netcracker.project.petshop.other;
 
 import netcracker.project.petshop.service.PollutionJob;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
 import java.util.Random;
 
-@Component
 public class PollutionThread implements Runnable {
     private static final String NAME = "PollutionThread";
     private Thread thread;
